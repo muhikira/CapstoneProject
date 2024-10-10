@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DiscoveryServer" />
+        <module name="Hrms" />
+        <module name="department-service" />
+        <module name="attendance-service" />
+        <module name="performance-service" />
+        <module name="benefits-service" />
+        <module name="recruitment-service" />
+        <module name="ApiGateway" />
+        <module name="notification-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
+      <module name="DiscoveryServer" options="-parameters" />
+      <module name="Hrms" options="-parameters" />
+      <module name="attendance-service" options="-parameters" />
+      <module name="benefits-service" options="-parameters" />
+      <module name="department-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="performance-service" options="-parameters" />
+      <module name="recruitment-service" options="-parameters" />
+    </option>
+  </component>
+</project>
