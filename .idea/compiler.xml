@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DiscoveryServer" />
         <module name="Hrms" />
+        <module name="auth-service" />
         <module name="department-service" />
         <module name="attendance-service" />
         <module name="performance-service" />
@@ -15,6 +17,7 @@
         <module name="recruitment-service" />
         <module name="ApiGateway" />
         <module name="notification-service" />
+        <module name="Hrms (1)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,7 +26,9 @@
       <module name="ApiGateway" options="-parameters" />
       <module name="DiscoveryServer" options="-parameters" />
       <module name="Hrms" options="-parameters" />
+      <module name="Hrms (1)" options="-parameters" />
       <module name="attendance-service" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="benefits-service" options="-parameters" />
       <module name="department-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
