@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: department-service
+  datasource:
+    username: hbstudent
+    password: hbstudent
+    url: jdbc:mysql://localhost:3306/department_db
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8089
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
